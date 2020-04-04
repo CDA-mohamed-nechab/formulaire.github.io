@@ -1,0 +1,18 @@
+{
+
+  "articles": [
+
+    { "id": 1, "label": "Le grand livre de JavaScript", "reference": "20201", "prix" : "99" },
+
+    { "id": 2, "label": "HTML encore plus vite", "reference": "20202", "prix": "54" },
+
+    { "id": 3, "label": "Windows NT4.0", "reference": "20203", "prix": "100" },
+    { "id": 1, "label": "Le kit de Ressource technique de NT", "reference": "20201", "prix" : "32" },
+
+    { "id": 2, "label": "ormation Java", "reference": "20204", "prix": "49" },
+
+    { "id": 3, "label": "Comment créer son site Web", "reference": "543", "prix": "15" }	
+
+  ]
+
+}
