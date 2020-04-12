@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.fill{
+   min-height: 100%;
+    background-color: #dfdfdf;
+    padding: 100px; 
+}
+.rowF{
+height: 300px;
+padding: 15px;
+}
+
+.progress-bar{
+    background-color: rgb(103, 168, 18) !important;
+}
+
+.flag{
+    border: solid 1px rgb(182, 182, 180);
+}
+.title{
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+.col-6, .col-2{
+    font-weight: 400;
+    font-size: medium;
+    
+}
+.col-12{
+    margin-bottom: 0px;
+}
+.divToClone{
+    text-align: center;
+
+}
+.navbar{
+    color: white;
+    text-align: center;
+}
+.btn{
+    color: black !important;
+}
