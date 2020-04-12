@@ -28,15 +28,15 @@ var seconds = 0;
 $(function () {
     $('.btn').eq(0).on('click', resetTheGame)
     $('.btn').last().one('click', function () { })
+    $('.btn').eq(1).on('click', function () {
+        chekingResult();
+    });
     if (localStorage.getItem('score') != null) {
         getFromLocalStorage();
         restColor();
         horizontale();
         compteur();
         compteurU();
-        $('.btn').eq(1).on('click', function () {
-            chekingResult();
-        });
         startTheGame();
     } else {
         startNewGame();
@@ -49,12 +49,10 @@ function startNewGame() {
     $('.btn').last().html('J\'ai compris')
     $('.modal-body').html('Bonjour! bienvenue sur le jeu des drapeaux<br>Ce jeu consiste à retrouver les couleurs des drapeaux<br>Il suffit de cliquer sur la bande pour changer sa couleur')
     $('#basicExampleModal').modal('show')
+    
     $('.btn').last().one('click', function () {
         compteur();
         compteurU();
-        $('.btn').eq(1).on('click', function () {
-            chekingResult();
-        });
         startTheGame();
     })
 }
