@@ -191,7 +191,8 @@ function compteurU() {
         minutes = parseInt(seconds / 60);
         seconds = seconds % 60;
         timeU = ajouteUnZero(minutes) + ':' + ajouteUnZero(seconds);
-        $('.btn').eq(1).html(timeU + ' (' + numberOfClickParFlag + ')')
+        // $('.btn').eq(1).html(timeU + ' (' + numberOfClickParFlag + ')')
+        $('.btn').eq(1).html('Valider')
     }, 1000);
 }
 function finalResult(a, b) {
