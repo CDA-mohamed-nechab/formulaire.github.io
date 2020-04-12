@@ -137,7 +137,7 @@ function googdResult() {
         setLocalStorage();
     }
     else {
-
+        clearTimeout(decomptesU);
         clearTimeout(decomptes);
         localStorage.clear();
         $('#click').html('clics: ' + numberOfClick)
